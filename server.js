@@ -1,0 +1,37 @@
+var start = new Date().getTime();
+
+require("bcryptjs");
+require("bookshelf");
+require("busboy");
+require("colors");
+require("connect-slashes");
+require("downsize");
+require("express");
+require("express-hbs");
+require("fs-extra");
+require("knex");
+require("lodash");
+require("moment");
+require("node-polyglot");
+require("node-uuid");
+require("nodemailer");
+require("rss");
+require("semver");
+require("showdown");
+require("sqlite3");
+require("unidecode");
+require("validator");
+require("when");
+require("blanket");
+require("grunt");
+require("matchdep");
+require("mocha");
+require("rewire");
+require("request");
+require("require-dir");
+require("should");
+require("sinon");
+require("supertest");
+
+var end = new Date().getTime();
+console.log("Loading took: " + (end - start) + "ms");
